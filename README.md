@@ -53,3 +53,6 @@ BONUS BONUS DELIVERABLES:
   **Hint: Think about some unique way to _identify_ each recipe. This will be
   necessary to find the necessary data for a particular recipe.**
 * HARD MODE: Implement a Delete button to remove a recipe!
+
+If you manage to complete all deliverables, you may claim a reward from your
+instructors.
