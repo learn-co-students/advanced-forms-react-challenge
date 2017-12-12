@@ -4,8 +4,8 @@ const RecipeList = ({ recipeName, recipeSteps }) => {
   const steps = recipeSteps.map(step => <div>{step}</div>);
   return (
     <div>
-      <h1>{recipeName}</h1>
-      <h3>{steps}</h3>
+      <h1 className="ui huge header">{recipeName}</h1>
+      <h3 className="ui large header">{steps}</h3>
     </div>
   );
 };

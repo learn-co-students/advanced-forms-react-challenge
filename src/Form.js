@@ -51,30 +51,38 @@ class Form extends React.Component {
   handleSubmit = event => {
     event.preventDefault();
     this.props.addRecipe(this.state);
+    this.setState({
+      recipeName: "",
+      recipeSteps: [""]
+    });
   };
 
   render() {
     console.log(this.state);
     const stepInputs = this.state.recipeSteps.map((step, index) => {
       return (
-        <div className="inputs" key={`step${index}`}>
-          <input
-            type="text"
-            name={index}
-            value={this.state.recipeSteps[index]}
-            placeholder="Recipe Task"
-            onChange={this.handleChange}
-          />
-          <button id={index} onClick={this.removeStep}>
-            -
-          </button>
+        <div className="two fields" key={`step${index}`}>
+          <div className="field">
+            <input
+              type="text"
+              name={index}
+              value={this.state.recipeSteps[index]}
+              placeholder="Recipe Step"
+              onChange={this.handleChange}
+            />
+          </div>
+          <div className="field">
+            <button className="ui button" id={index} onClick={this.removeStep}>
+              Remove Step
+            </button>
+          </div>
         </div>
       );
     });
     return (
       <div className="sideForm">
-        <form className="form" onSubmit={this.handleSubmit}>
-          <div>
+        <form className="ui form" onSubmit={this.handleSubmit}>
+          <div className="field">
             <input
               className="title"
               type="text"
@@ -84,9 +92,13 @@ class Form extends React.Component {
               onChange={this.handleChange}
             />
           </div>
-          {stepInputs}
-          <button onClick={this.addStep}>Add Step</button>
-          <input type="submit" />
+          <div className="field">{stepInputs}</div>
+          <div className="field">
+            <button className="ui button" onClick={this.addStep}>
+              Add Step
+            </button>
+            <input className="ui button" type="submit" />
+          </div>
         </form>
       </div>
     );

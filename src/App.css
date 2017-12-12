@@ -24,22 +24,25 @@
 
 .sideForm {
   position: absolute;
-  width: 20vw;
+  padding: 0.5em;
+  width: 40vw;
   height: 100vh;
   top: 0;
   left: 0;
-  background-color: #333;
+  background-color: #999;
+  overflow: scroll;
 }
 
 .recipes {
   position: absolute;
-  width: 80vw;
+  width: 60vw;
   height: 100vh;
   top: 0;
-  left: 20vw;
-  background-color: #a55;
+  left: 40vw;
+  background-color: #eee;
   overflow: scroll;
 }
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
