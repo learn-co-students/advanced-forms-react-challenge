@@ -13,7 +13,7 @@ the formidibale React Forms labs, but... what? what is that on the horizon?
 
 # "I AM ADVANCED FORMS, AND YOU WILL REMEMBER ME!"
 
-###Your Challenge:
+### Your Challenge:
 
 Build out a recipe listing application that has two sibling components, a form
 for entering a recipe and a recipe list that displays all submitted recipes.
