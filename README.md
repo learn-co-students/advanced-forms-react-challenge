@@ -1,9 +1,9 @@
-# Advanced Forms Challenge
+# Recipr - Advanced Forms Challenge
 
 Traveller, you've successfully tackled the Props and State labs, and even bested
 the formidibale React Forms labs, but... what? what is that on the horizon?
 
-# --A NEW CHALLENGER HAS APPROACHES--
+# --A NEW CHALLENGER APPROACHES--
 
 ### "YOU?? YOU WERE THE ONE WHO DEFEATED MY LITTLE BROTHER, FORMS LAB?? YOU ARE STRONG, BUT LET'S SEE IF YOU CAN BEST ME!"
 
