@@ -23,7 +23,7 @@ efficient ways to handle the various parts of this challenge.
 
 Your application should look like the following:
 
-![Recipr](https://imgur.com/vY2rsv2)
+[Imgur](https://i.imgur.com/vY2rsv2.gifv)
 
 #### Deliverables:
 
