@@ -23,17 +23,18 @@ efficient ways to handle the various parts of this challenge.
 
 Your application should look like the following:
 
-[Imgur](https://i.imgur.com/vY2rsv2.gifv)
+[Recipr](https://i.imgur.com/vY2rsv2.gif)
 
 #### Deliverables:
 
-It is very recommended to complete each deliverable in order before moving on to the next, as each builds off the next. As a user of this application, I should be able to:
+It is very recommended to complete each deliverable in order before moving on to
+the next, as each builds off the next. As a user of this application, I should
+be able to:
 
 * Enter a recipe title and at least one recipe step to start
 * Submit a recipe and have it appear in a list of all submitted recipes
 * Click a button that creates more inputs for steps. Each step input should be
   controlled using state
-
 
 BONUS DELIVERABLES:
 
