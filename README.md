@@ -27,12 +27,13 @@ Your application should look like the following:
 
 #### Deliverables:
 
-As a user of this application, I should be able to:
+It is very recommended to complete each deliverable in order before moving on to the next, as each builds off the next. As a user of this application, I should be able to:
 
-* Enter a recipe title and at least one recipe step to start.
-* Click a button that creates more inputs for steps. Each step input should be
-  controlled using state.
+* Enter a recipe title and at least one recipe step to start
 * Submit a recipe and have it appear in a list of all submitted recipes
+* Click a button that creates more inputs for steps. Each step input should be
+  controlled using state
+
 
 BONUS DELIVERABLES:
 
@@ -44,7 +45,7 @@ BONUS DELIVERABLES:
 
 * After both sets of inputs are set up successfully, try to abstract any methods
   you have written to handle adding inputs and updating state so you only need
-  one for both input types
+  **_one_** for both input types
 
 BONUS BONUS DELIVERABLES:
 
