@@ -27,7 +27,7 @@ Your application should look like the following:
 
 #### Deliverables:
 
-It is very recommended to complete each deliverable in order before moving on to
+It is highly recommended to complete each deliverable in order before moving on to
 the next, as each builds off the next. As a user of this application, I should
 be able to:
 
